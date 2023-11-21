@@ -1,8 +1,11 @@
+import styles from "./about-me.module.css";
+import '@fontsource/roboto/500.css';
+
 const AboutMe = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Sobre mim</h1>
-      <p>
+      <p className={styles.summary}>
         Front end com mais de 2 anos de experiência em desenvolvimento de
         aplicações web, fazendo o uso de frameworks e bibliotecas modernos.
         Minha jornada é marcada por uma constante busca por evolução, participai
