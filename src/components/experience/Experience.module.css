@@ -1,8 +1,38 @@
-.companiesContainer{
+.companiesContainer {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
 }
 
 .company {
-    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 40vh;
+    margin: 10px;
+    padding: 10px;
+    background-color: #deddc4;
+    border-radius: 10px;
 }
+
+.company img, span {
+    margin-bottom: 5px;
+}
+
+.company ul {
+    list-style-type: none;
+}
+
+.company ul li{
+    margin-bottom: 6px;
+}
+
+@media (max-width: 1274) {
+    .company {
+      height: 100%; 
+    }
+  }
