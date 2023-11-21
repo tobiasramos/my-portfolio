@@ -1,0 +1,8 @@
+.companiesContainer{
+    display: flex;
+    padding: 10px;
+}
+
+.company {
+    margin: 5px;
+}
