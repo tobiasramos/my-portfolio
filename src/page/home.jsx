@@ -4,35 +4,50 @@ import AboutMe from "../components/about-me/about-me";
 import Experience from "../components/experience/experience";
 import Skills from "../components/skills/skills";
 import Contact from "../components/contact/contact";
-
+import styles from "./Home.module.css";
+import { Tab } from "@mui/material";
 const Home = () => {
   return (
-    <Router>
-      <div>
-        <ul>
-          <li>
-            <Link to="/">Sobre mim</Link>
-          </li>
-          <li>
-            <Link to="/experience">Experiência</Link>
-          </li>
-          <li>
-            <Link to="/skills">Habilidades</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contato</Link>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <Routes>
-        <Route path="/" element={<AboutMe />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className={styles.container}>
+      <Router>
+        <nav className={styles.link}>
+          <ul>
+            <Tab
+              className={styles.tab}
+              label="Sobre mim"
+              component={Link}
+              to="/"
+            />
+            <Tab
+              className={styles.tab}
+              label="Experiência"
+              component={Link}
+              to="/experience"
+            />
+            <Tab
+              className={styles.tab}
+              label="Habilidades"
+              component={Link}
+              to="/skills"
+            />
+            <Tab
+              className={styles.tab}
+              label="Contato"
+              component={Link}
+              to="/contact"
+            />
+          </ul>
+        </nav>
+        <div className={styles.rendering}>
+          <Routes>
+            <Route path="/" element={<AboutMe />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+      </Router>
+    </div>
   );
 };
 
