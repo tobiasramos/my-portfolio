@@ -4,6 +4,7 @@ import '@fontsource/roboto/500.css';
 const AboutMe = () => {
   return (
     <div className={styles.container}>
+      <img src="./img/profile.jpg" alt="Logo do perfil" />
       <h1>Sobre mim</h1>
       <p className={styles.summary}>
         Front end com mais de 2 anos de experiência em desenvolvimento de
