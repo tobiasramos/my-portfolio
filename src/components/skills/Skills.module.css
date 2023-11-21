@@ -1,0 +1,15 @@
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.skillsContainer a {
+    margin: auto auto;
+    text-align: center;
+}
+
+.skillsContainer a div img {
+    width: 138px;
+    height: 138px;
+}
