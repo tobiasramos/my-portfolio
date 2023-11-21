@@ -1,0 +1,21 @@
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.socialMedia li {
+    margin-right: 10px;
+
+}
+
+.socialMedia .icon {
+    font-size: 150px;
+}
+
+@media (max-width: 850px) {
+    .socialMedia .icon {
+        font-size: 100px;
+    }
+}

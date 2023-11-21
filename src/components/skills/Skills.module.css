@@ -2,14 +2,37 @@
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
+    height: 100%;
 }
 
 .skillsContainer a {
     margin: auto auto;
     text-align: center;
+    margin: 8px;
 }
 
 .skillsContainer a div img {
-    width: 138px;
-    height: 138px;
+    width: 100px;
+    height: 100px;
 }
+
+@media (max-width: 999px) {
+    .skillsContainer a div img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .skillsContainer h3 {
+        font-size: 16px;
+    }
+  }
+
+  @media (max-width: 731px) {
+    .skillsContainer a div img {
+        width: 70px;
+        height: 70px;
+    }
+    .skillsContainer h3 {
+        font-size: 14px;
+    }
+  }

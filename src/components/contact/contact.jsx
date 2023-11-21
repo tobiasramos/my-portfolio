@@ -2,33 +2,34 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import ResumeIcon from "@mui/icons-material/Description";
+import styles from "./Contact.module.css";
 
 const Contact = () => {
   return (
     <div>
       <h1>Contato</h1>
-      <ul>
+      <ul className={styles.socialMedia}>
         <li>
           <a href="https://github.com/tobiasramos" target="_blank">
-            <GitHubIcon />
+            <GitHubIcon className={styles.icon} />
           </a>
         </li>
 
         <li>
           <a href="https://www.linkedin.com/in/tobias-ramos/" target="_blank">
-            <LinkedInIcon color="blue" />
+            <LinkedInIcon style={{ color: "blue" }} className={styles.icon} />
           </a>
         </li>
 
         <li>
           <a href="mailto:tobiasramossilva@gmail.com?subject=link HTML">
-            <EmailIcon />
+            <EmailIcon style={{ color: "#878286" }} className={styles.icon}/>
           </a>
         </li>
 
         <li>
           <a href="../curriculo/Currículo.pdf" target="iframe_download"></a>
-          <ResumeIcon />
+          <ResumeIcon style={{ color: "#655643" }} className={styles.icon}/>
         </li>
       </ul>
     </div>
