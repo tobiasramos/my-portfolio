@@ -3,7 +3,7 @@ import styles from "./Skills.module.css"
 const Skills = () => {
   return (
     <div>
-      <h1>Habilidades</h1>
+      <h2>Habilidades</h2>
       <div class={styles.skillsContainer}>
         <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
           <div>

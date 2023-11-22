@@ -1,13 +1,12 @@
 .socialMedia {
     display: flex;
-    justify-content: center;
     align-items: center;
-    list-style: none;
+    justify-content: center;  
+    height: 100vh; 
 }
 
 .socialMedia li {
     margin-right: 10px;
-
 }
 
 .socialMedia .icon {

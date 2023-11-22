@@ -1,9 +1,12 @@
 import styles from "./Experience.module.css";
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
 
 const Experience = () => {
   return (
     <div>
-      <h1>Experiência</h1>
+      <h2>Experiência</h2>
       <div className={styles.companiesContainer}>
         <div className={styles.company}>
           <img src="../img/labsif.jpeg" alt="Logo da empresa" />
