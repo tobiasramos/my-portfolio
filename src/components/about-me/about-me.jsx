@@ -1,12 +1,12 @@
 import styles from "./about-me.module.css";
 import "@fontsource/roboto/500.css";
+import '@fontsource/roboto/700.css';
 
 const AboutMe = () => {
   return (
-    <>
+    <div className={styles.aboutMe}>
       <h2>Sobre mim</h2>
       <div className={styles.container}>
-        <img src="./img/profile.jpg" alt="Logo do perfil" />
         <p className={styles.summary}>
           Front end com mais de 2 anos de experiência em desenvolvimento de
           aplicações web, fazendo o uso de frameworks e bibliotecas modernos.
@@ -19,7 +19,7 @@ const AboutMe = () => {
           minha rotina, estuando, trabalhando e praticando esses esportes.
         </p>
       </div>
-    </>
+    </div>
   );
 };
 
