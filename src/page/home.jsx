@@ -6,6 +6,8 @@ import Skills from "../components/skills/skills";
 import Contact from "../components/contact/contact";
 import styles from "./Home.module.css";
 import { Tab } from "@mui/material";
+import Projects from "../components/projects/projects";
+
 const Home = () => {
   return (
     <div className={styles.container}>
@@ -32,6 +34,12 @@ const Home = () => {
             />
             <Tab
               className={styles.tab}
+              label="Projetos"
+              component={Link}
+              to="/projects"
+            />
+            <Tab
+              className={styles.tab}
               label="Contato"
               component={Link}
               to="/contact"
@@ -43,6 +51,7 @@ const Home = () => {
             <Route path="/" element={<AboutMe />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
