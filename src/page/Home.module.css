@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 97vh;
+    background-color: #D9D9D9;
 }
 
 .link {
@@ -19,8 +20,6 @@
 .link ul {
     display: flex;
     flex-direction: column;
-    list-style-type: none;
-
 }
 
 .link .tab {
@@ -36,4 +35,5 @@
 
 .rendering {
     width: 80rem;
+    height: 100%;
 }

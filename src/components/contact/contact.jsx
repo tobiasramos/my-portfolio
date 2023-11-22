@@ -6,33 +6,33 @@ import styles from "./Contact.module.css";
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contato</h1>
-      <ul className={styles.socialMedia}>
-        <li>
-          <a href="https://github.com/tobiasramos" target="_blank">
-            <GitHubIcon className={styles.icon} />
-          </a>
-        </li>
+    <>
+      <h2>Contato</h2>
+        <ul className={styles.socialMedia}>
+          <li>
+            <a href="https://github.com/tobiasramos" target="_blank">
+              <GitHubIcon className={styles.icon} />
+            </a>
+          </li>
 
-        <li>
-          <a href="https://www.linkedin.com/in/tobias-ramos/" target="_blank">
-            <LinkedInIcon style={{ color: "blue" }} className={styles.icon} />
-          </a>
-        </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tobias-ramos/" target="_blank">
+              <LinkedInIcon style={{ color: "blue" }} className={styles.icon} />
+            </a>
+          </li>
 
-        <li>
-          <a href="mailto:tobiasramossilva@gmail.com?subject=link HTML">
-            <EmailIcon style={{ color: "#878286" }} className={styles.icon}/>
-          </a>
-        </li>
+          <li>
+            <a href="mailto:tobiasramossilva@gmail.com?subject=link HTML">
+              <EmailIcon style={{ color: "#878286" }} className={styles.icon} />
+            </a>
+          </li>
 
-        <li>
-          <a href="../curriculo/Currículo.pdf" target="iframe_download"></a>
-          <ResumeIcon style={{ color: "#655643" }} className={styles.icon}/>
-        </li>
-      </ul>
-    </div>
+          <li>
+            <a href="../curriculo/Currículo.pdf" target="iframe_download"></a>
+            <ResumeIcon style={{ color: "#655643" }} className={styles.icon} />
+          </li>
+        </ul>
+    </>
   );
 };
 

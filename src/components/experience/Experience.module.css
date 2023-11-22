@@ -12,27 +12,39 @@
     align-items: center;
     justify-content: center;
     width: 30rem;
-    height: 40vh;
+    height: 44vh;
     margin: 10px;
     padding: 10px;
-    background-color: #deddc4;
+    color: #fff;
+    font-family: "Roboto";
+    background-color: #32373D;
     border-radius: 10px;
 }
 
+.company h3 {
+    font-weight: 600;
+}
+
 .company img, span {
-    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
-.company ul {
-    list-style-type: none;
-}
-
-.company ul li{
+.company ul li {
     margin-bottom: 6px;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 @media (max-width: 1274) {
     .company {
-      height: 100%; 
+        height: 100%;
     }
-  }
+}
+
+@media (max-width: 730px) {
+    .company {
+        width: 90%;
+    }
+}
