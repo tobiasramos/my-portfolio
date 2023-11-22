@@ -5,7 +5,7 @@ import '@fontsource/roboto/700.css';
 
 const Experience = () => {
   return (
-    <div>
+    <>
       <h2>Experiência</h2>
       <div className={styles.companiesContainer}>
         <div className={styles.company}>
@@ -43,7 +43,7 @@ const Experience = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,5 +1,6 @@
 .skillsContainer {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
     height: 100%;
@@ -25,14 +26,15 @@
     .skillsContainer h3 {
         font-size: 16px;
     }
-  }
+}
 
-  @media (max-width: 731px) {
+@media (max-width: 731px) {
     .skillsContainer a div img {
         width: 70px;
         height: 70px;
     }
+
     .skillsContainer h3 {
         font-size: 14px;
     }
-  }
+}
