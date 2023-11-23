@@ -28,7 +28,7 @@ const Contact = () => {
         </li>
 
         <li>
-          <a href="../curriculo/Currículo.pdf" target="iframe_download">
+          <a href="../curriculum/Currículo.pdf" target="iframe_download">
             <ResumeIcon style={{ color: "#655643" }} className={styles.icon} />
           </a>
         </li>
