@@ -12,9 +12,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20rem;
+    width: 25%;
     height: 100%;
     background-color: #111625;
+}
+
+.link .menuButton {
+    display: none;
 }
 
 .link ul {
@@ -34,6 +38,40 @@
 }
 
 .rendering {
-    width: 80rem;
+    width: 75%;
     height: 100%;
+}
+
+@media (max-width: 800px) {
+    .container {
+        display: block;
+
+    }
+
+    .link {
+        width: 100%;
+        height: 8vh;
+    }
+
+    .link ul {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .link .tab {
+        margin: auto auto;
+        font-size: 14px;
+    }
+
+    .rendering {
+        margin: auto auto;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .link .tab {
+        font-size: 12px;
+    }
 }

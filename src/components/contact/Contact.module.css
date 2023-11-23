@@ -1,8 +1,8 @@
 .socialMedia {
     display: flex;
     align-items: center;
-    justify-content: center;  
-    height: 80%; 
+    justify-content: center;
+    height: 80%;
 }
 
 .socialMedia li {
@@ -10,11 +10,23 @@
 }
 
 .socialMedia .icon {
-    font-size: 150px;
+    font-size: 120px;
 }
 
 @media (max-width: 850px) {
     .socialMedia .icon {
         font-size: 100px;
+    }
+}
+
+@media (max-width: 540px) {
+    .socialMedia {
+        width: 100px;
+        display: block;
+        margin: auto auto;
+    }
+
+    .socialMedia .icon {
+        font-size: 90px;
     }
 }

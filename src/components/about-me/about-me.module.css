@@ -1,5 +1,5 @@
 .aboutMe {
-    background-image: url('../../../public/img/profile.jpg');
+    background-image: url('../../../public/img/IMG_0999.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid #000;
@@ -24,8 +24,14 @@
 }
 
 .summary {
-    width: 90%;
+    width: 95%;
     font-size: 20px;
     font-weight: 400;
     margin-top: 10px;
+}
+
+@media (max-width: 640px) {
+    .summary {
+        font-size: 14px;
+    }
 }
