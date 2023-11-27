@@ -18,14 +18,13 @@ const Home = () => {
   };
   return (
     <div className={styles.container}>
-        <Header />
+      <Header />
       <div className={styles.main}>
         <Router>
-        <div className={styles.menuButton} onClick={toggleMenu}>
-              ☰
-            </div>
+          <div className={styles.menuButton} onClick={toggleMenu}>
+            ☰
+          </div>
           <nav className={`${styles.link} ${showMenu ? styles.showMenu : ""}`}>
-         
             <ul>
               <Tab
                 className={styles.tab}
