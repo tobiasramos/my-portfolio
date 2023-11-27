@@ -1,10 +1,12 @@
 .container {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 97vh;
     background-color: #D9D9D9;
+}
+
+.main {
+    width: 100%;
+    height:100vh;
+    display: flex;
 }
 
 .link {
@@ -13,7 +15,6 @@
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 100%;
     background-color: #111625;
 }
 
@@ -39,11 +40,11 @@
 
 .rendering {
     width: 75%;
-    height: 100%;
+    
 }
 
 @media (max-width: 800px) {
-    .container {
+    .main {
         display: block;
 
     }

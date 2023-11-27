@@ -14,18 +14,18 @@
 }
 
 @media (max-width: 850px) {
-    .socialMedia .icon {
-        font-size: 100px;
-    }
-}
-
-@media (max-width: 540px) {
     .socialMedia {
         width: 100px;
         display: block;
         margin: auto auto;
     }
 
+    .socialMedia .icon {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 540px) {
     .socialMedia .icon {
         font-size: 90px;
     }

@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div>
       <h2>Habilidades</h2>
-      <div class={styles.skillsContainer}>
+      <div className={styles.skillsContainer}>
         <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
           <div>
             <img src="../img/html.png" alt="Logo HTML" />
