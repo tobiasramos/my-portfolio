@@ -20,10 +20,10 @@ const Projects = () => {
   return (
     <>
       <h2>Projetos</h2>
-      <div class={styles.myProjects} id="my-projects">
-        <div class={styles.carousel} ref={carousel}>
-          <div class={styles.item}>
-            <div class={styles.imageProject}>
+      <div className={styles.myProjects} id="my-projects">
+        <div className={styles.carousel} ref={carousel}>
+          <div className={styles.item}>
+            <div className={styles.imageProject}>
               <a
                 href="https://github.com/tobiasramos/task-management"
                 target="_blank"
@@ -34,7 +34,7 @@ const Projects = () => {
                 />
               </a>
             </div>
-            <div class={styles.info}>
+            <div className={styles.info}>
               <h3>Task Management</h3>
               <h4>Tecnologias:</h4>
               <ul>
@@ -45,8 +45,8 @@ const Projects = () => {
             </div>
           </div>
 
-          <div class={styles.item}>
-            <div class={styles.imageProject}>
+          <div className={styles.item}>
+            <div className={styles.imageProject}>
               <a
                 href="https://github.com/tobiasramos/pokedex.git"
                 target="_blank"
@@ -54,7 +54,7 @@ const Projects = () => {
                 <img src="../img/project-2.gif" alt="Foto do segundo projeto" />
               </a>
             </div>
-            <div class={styles.info}>
+            <div className={styles.info}>
               <h3>Pokedex</h3>
               <h4>Tecnologias:</h4>
               <ul>
@@ -64,8 +64,8 @@ const Projects = () => {
             </div>
           </div>
 
-          <div class={styles.item}>
-            <div class={styles.imageProject}>
+          <div className={styles.item}>
+            <div className={styles.imageProject}>
               <a
                 href="https://github.com/tobiasramos/country-search"
                 target="_blank"
@@ -76,7 +76,7 @@ const Projects = () => {
                 />
               </a>
             </div>
-            <div class={styles.info}>
+            <div className={styles.info}>
               <h3>Country Search</h3>
               <h4>Tecnologias:</h4>
               <ul>
@@ -86,8 +86,8 @@ const Projects = () => {
             </div>
           </div>
 
-          <div class={styles.item}>
-            <div class={styles.imageProject}>
+          <div className={styles.item}>
+            <div className={styles.imageProject}>
               <a
                 href="https://github.com/tobiasramos/job-listings"
                 target="_blank"
@@ -95,7 +95,7 @@ const Projects = () => {
                 <img src="../img/project-4.gif" alt="Foto do segundo projeto" />
               </a>
             </div>
-            <div class={styles.info}>
+            <div className={styles.info}>
               <h3>Job Listings</h3>
               <h4>Tecnologias:</h4>
               <ul>
@@ -105,7 +105,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="buttons">
+        <div className={styles.buttons}>
           <ArrowBackIosNewIcon onClick={handleLeftClick} />
           <ArrowForwardIosIcon onClick={handleRightClick} />
         </div>
