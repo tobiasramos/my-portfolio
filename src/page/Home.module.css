@@ -5,8 +5,20 @@
 
 .main {
     width: 100%;
-    height:100vh;
+    height: 100vh;
     display: flex;
+}
+
+.menuButton {
+    top: 12px;
+    right: 5px;
+    position: absolute;
+    width: 30px;
+    display: none;
+    margin: auto auto;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1500;
 }
 
 .link {
@@ -40,18 +52,26 @@
 
 .rendering {
     width: 75%;
-    
+
 }
 
 @media (max-width: 800px) {
     .main {
         display: block;
+    }
 
+    .menuButton {
+        display: flex;
     }
 
     .link {
-        width: 100%;
-        height: 8vh;
+        width: 50%;
+        height: auto;
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1000;
     }
 
     .link ul {
@@ -59,9 +79,13 @@
         align-items: center;
     }
 
-    .link .tab {
-        margin: auto auto;
-        font-size: 14px;
+    .link.showMenu {
+        display: block;
+    }
+
+    .link.showMenu ul {
+        display: flex;
+        flex-direction: column;
     }
 
     .rendering {

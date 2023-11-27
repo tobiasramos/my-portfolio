@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import AboutMe from "../components/about-me/about-me";
 import Experience from "../components/experience/experience";
@@ -11,12 +11,21 @@ import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 
 const Home = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
   return (
     <div className={styles.container}>
         <Header />
       <div className={styles.main}>
         <Router>
-          <nav className={styles.link}>
+        <div className={styles.menuButton} onClick={toggleMenu}>
+              ☰
+            </div>
+          <nav className={`${styles.link} ${showMenu ? styles.showMenu : ""}`}>
+         
             <ul>
               <Tab
                 className={styles.tab}
