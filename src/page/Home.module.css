@@ -27,7 +27,7 @@
     justify-content: center;
     align-items: center;
     width: 25%;
-    background-color: #111625;
+    background-color: #171A23;
 }
 
 .link .menuButton {
@@ -46,9 +46,14 @@
 }
 
 .link .tab:hover {
-    transition: 0.5s;
+    transition: 0.8s;
     color: #307cb3;
+    border-bottom: 2px solid #307cb3; 
 }
+
+.link .tab.active {
+    border-bottom: 2px solid #fff; 
+  }
 
 .rendering {
     width: 75%;

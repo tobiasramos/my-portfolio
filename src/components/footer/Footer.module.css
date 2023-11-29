@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 20vh;
-    background-color: #706767;
+    background-color: #1D373A;
 }
 
 .footer,
@@ -14,9 +14,11 @@
 
 .footer a {
     margin-left: 5px;
+    color: #307cb3;
+    font-weight: 500;
 }
 
 .footer a:hover {
-    transition: 0.5s;
-    color: #307cb3;
+    transition: 0.8s;
+    border-bottom: 2px solid #307cb3;
 }

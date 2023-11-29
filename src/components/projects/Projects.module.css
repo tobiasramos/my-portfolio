@@ -1,10 +1,29 @@
 .myProjects {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 85%;
 }
+
+.myProjects .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.myProjects .arrow:last-child {
+    right: 0;
+}
+
+.myProjects .arrow:first-child {
+    left: 12px;
+}
+
 
 .myProjects .carousel {
     display: flex;
@@ -23,7 +42,7 @@
 .myProjects .carousel .item {
     margin: 10px;
     padding: 10px;
-    width: 48%;
+    width: 44%;
     height: 55vh;
     flex: none;
     border-radius: 10px;
@@ -51,10 +70,6 @@
     margin-left: 5px;
 }
 
-.buttons svg {
-    cursor: pointer;
-}
-
 
 @media (max-width: 768px) {
     .myProjects .carousel {
@@ -62,7 +77,7 @@
     }
 
     .myProjects .carousel .item {
-        width: 95%;
+        width: 90%;
         height: 80vh;
     }
 }

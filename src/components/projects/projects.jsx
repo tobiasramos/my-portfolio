@@ -20,9 +20,12 @@ const Projects = () => {
   return (
     <>
       <h2>Projetos</h2>
-      <div className={styles.myProjects} id="my-projects">
+      <section className={styles.myProjects} id="my-projects">
+        <article className={styles.arrow}>
+          <ArrowBackIosNewIcon onClick={handleLeftClick} />
+        </article>
         <div className={styles.carousel} ref={carousel}>
-          <div className={styles.item}>
+          <article className={styles.item}>
             <div className={styles.imageProject}>
               <a
                 href="https://github.com/tobiasramos/task-management"
@@ -43,9 +46,9 @@ const Projects = () => {
                 <li>- Material UI</li>
               </ul>
             </div>
-          </div>
+          </article>
 
-          <div className={styles.item}>
+          <article className={styles.item}>
             <div className={styles.imageProject}>
               <a
                 href="https://github.com/tobiasramos/pokedex.git"
@@ -62,9 +65,9 @@ const Projects = () => {
                 <li>- Axios</li>
               </ul>
             </div>
-          </div>
+          </article>
 
-          <div className={styles.item}>
+          <article className={styles.item}>
             <div className={styles.imageProject}>
               <a
                 href="https://github.com/tobiasramos/country-search"
@@ -84,9 +87,9 @@ const Projects = () => {
                 <li>- Axios</li>
               </ul>
             </div>
-          </div>
+          </article>
 
-          <div className={styles.item}>
+          <article className={styles.item}>
             <div className={styles.imageProject}>
               <a
                 href="https://github.com/tobiasramos/job-listings"
@@ -103,13 +106,12 @@ const Projects = () => {
                 <li>- Axios</li>
               </ul>
             </div>
-          </div>
+          </article>
         </div>
-        <div className={styles.buttons}>
-          <ArrowBackIosNewIcon onClick={handleLeftClick} />
+        <article className={styles.arrow}>
           <ArrowForwardIosIcon onClick={handleRightClick} />
-        </div>
-      </div>
+        </article>
+      </section>
     </>
   );
 };
