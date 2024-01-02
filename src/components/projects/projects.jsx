@@ -28,7 +28,7 @@ const Projects = () => {
           <article className={styles.item}>
             <div className={styles.imageProject}>
               <a
-                href="https://github.com/tobiasramos/task-management"
+                href="https://multi-step-form-git-main-tobias-ramos-projects.vercel.app/"
                 target="_blank"
               >
                 <img
@@ -38,12 +38,18 @@ const Projects = () => {
               </a>
             </div>
             <div className={styles.info}>
-              <h3>Task Management</h3>
+              <a
+                href="https://github.com/tobiasramos/multi-step-form.git"
+                target="_blank"
+              >
+                <h3>Multi Step Form</h3>
+              </a>
+
               <h4>Tecnologias:</h4>
               <ul>
                 <li>- ReactJS</li>
-                <li>- Axios</li>
-                <li>- Material UI</li>
+                <li>- Styled Components</li>
+                <li>- Jest/React Testing Library</li>
               </ul>
             </div>
           </article>
@@ -51,14 +57,19 @@ const Projects = () => {
           <article className={styles.item}>
             <div className={styles.imageProject}>
               <a
-                href="https://github.com/tobiasramos/pokedex.git"
+                href="https://pokedex-git-main-tobias-ramos-projects.vercel.app/"
                 target="_blank"
               >
                 <img src="../img/project-2.gif" alt="Foto do segundo projeto" />
               </a>
             </div>
             <div className={styles.info}>
-              <h3>Pokedex</h3>
+              <a
+                href="https://github.com/tobiasramos/pokedex.git"
+                target="_blank"
+              >
+                <h3>Pokedex</h3>
+              </a>
               <h4>Tecnologias:</h4>
               <ul>
                 <li>- ReactJS</li>
@@ -70,7 +81,7 @@ const Projects = () => {
           <article className={styles.item}>
             <div className={styles.imageProject}>
               <a
-                href="https://github.com/tobiasramos/country-search"
+                href="https://country-search-git-main-tobias-ramos-projects.vercel.app/"
                 target="_blank"
               >
                 <img
@@ -80,7 +91,12 @@ const Projects = () => {
               </a>
             </div>
             <div className={styles.info}>
-              <h3>Country Search</h3>
+              <a
+                href="https://github.com/tobiasramos/country-search"
+                target="_blank"
+              >
+                <h3>Country Search</h3>
+              </a>
               <h4>Tecnologias:</h4>
               <ul>
                 <li>- ReactJS</li>
@@ -92,14 +108,19 @@ const Projects = () => {
           <article className={styles.item}>
             <div className={styles.imageProject}>
               <a
-                href="https://github.com/tobiasramos/job-listings"
+                href="https://job-listings-git-main-tobias-ramos-projects.vercel.app/"
                 target="_blank"
               >
                 <img src="../img/project-4.gif" alt="Foto do segundo projeto" />
               </a>
             </div>
             <div className={styles.info}>
-              <h3>Job Listings</h3>
+              <a
+                href="https://github.com/tobiasramos/job-listings"
+                target="_blank"
+              >
+                <h3>Job Listings</h3>
+              </a>
               <h4>Tecnologias:</h4>
               <ul>
                 <li>- ReactJS</li>
