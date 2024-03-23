@@ -25,6 +25,35 @@ const Projects = () => {
           <ArrowBackIosNewIcon onClick={handleLeftClick} />
         </article>
         <div className={styles.carousel} ref={carousel}>
+        <article className={styles.item}>
+            <div className={styles.imageProject}>
+              <a
+                href="https://general-product-store-git-main-tobias-ramos-projects.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  src="../img/project-5.gif"
+                  alt="Foto do primeiro projeto"
+                />
+              </a>
+            </div>
+            <div className={styles.info}>
+              <a
+                href="https://github.com/tobiasramos/general-product-store"
+                target="_blank"
+              >
+                <h3>Loja de produtos em geral</h3>
+              </a>
+
+              <h4>Tecnologias:</h4>
+              <ul>
+                <li>- NextJS</li>
+                <li>- Zustand</li>
+                <li>- Ant Design</li>
+              </ul>
+            </div>
+          </article>
+
           <article className={styles.item}>
             <div className={styles.imageProject}>
               <a

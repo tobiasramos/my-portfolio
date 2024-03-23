@@ -1,4 +1,4 @@
-import styles from "./Skills.module.css"
+import styles from "./Skills.module.css";
 
 const Skills = () => {
   return (
@@ -57,6 +57,16 @@ const Skills = () => {
           </div>
         </a>
 
+        <a
+          href="https://nextjs.org/"
+          target="_blank"
+        >
+          <div>
+            <img src="../img/next.png" alt="Logo Next" />
+            <h3>NEXT</h3>
+          </div>
+        </a>
+
         <a href="https://mui.com/" target="_blank">
           <div>
             <img src="../img/materialUi.png" alt="Logo MATERIAL UI" />
@@ -64,10 +74,24 @@ const Skills = () => {
           </div>
         </a>
 
+        <a href="https://ant.design/" target="_blank">
+          <div>
+            <img src="../img/ant-design.png" alt="Logo ANT DESIGN" />
+            <h3>ANT DESIGN</h3>
+          </div>
+        </a>
+
         <a href="https://redux.js.org/" target="_blank">
           <div>
             <img src="../img/redux.svg" alt="Logo REDUX" />
             <h3>REDUX</h3>
+          </div>
+        </a>
+
+        <a href="https://zustand-demo.pmnd.rs/" target="_blank">
+          <div>
+            <img src="../img/zustand.png" alt="Logo ZUSTAND" />
+            <h3>ZUSTAND</h3>
           </div>
         </a>
 
@@ -135,10 +159,7 @@ const Skills = () => {
         </a>
         <a href="https://www.mysql.com/" target="_blank">
           <div>
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg"
-              alt="Logo MYSQL"
-            />
+            <img src="../img/mysql.png" alt="Logo MYSQL" />
             <h3>MYSQL</h3>
           </div>
         </a>
