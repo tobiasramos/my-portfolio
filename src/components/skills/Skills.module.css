@@ -1,47 +1,76 @@
 .skillsContainer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     padding: 20px;
     height: 100%;
 }
 
-.skillsContainer a {
+.skillsContainer h3 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.technique {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.technique a {
     margin: auto auto;
     text-align: center;
     margin: 8px;
 }
 
-.skillsContainer a div img {
-    width: 100px;
-    height: 100px;
+.technique a div img {
+    width: 60px;
+    height: 60px;
+}
+
+.technique a div h4 {
+    font-size: 14px;
+}
+
+.nonTechnical {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nonTechnical p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 105px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #ccc;
 }
 
 @media (max-width: 1220px) {
-    .skillsContainer a div img {
+    .technique a div img {
         width: 70px;
         height: 70px;
-    }
-
-    .skillsContainer h3 {
-        font-size: 16px;
     }
 }
 
 @media (max-width: 731px) {
-    .skillsContainer a div img {
-        width: 60px;
-        height: 60px;
-    }
-
-    .skillsContainer h3 {
+    .technique h3 {
         font-size: 14px;
     }
 }
 
 @media (max-width: 690px) {
-    .skillsContainer a div img {
-        width: 50px;
-        height: 50px;
+    .technique a div img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .technique a div h4 {
+        font-size: 12px;
+    }
+
+    .nonTechnical p {
+        width: 90px;
+        font-size: 14px;
     }
 }
