@@ -8,22 +8,23 @@ const AboutMe = () => {
       <h2>Sobre mim</h2>
       <div className={styles.container}>
         <p className={styles.summary}>
-          Front end com quase 2 anos de experiência em desenvolvimento de
-          aplicações web, fazendo o uso de bibliotecas e frameworks modernos.
+          Olá, me chamo Tobias, tenho 25 anos, moro em Senador Pompeu – Ce. Sou
+          front end com 2 anos de experiência em desenvolvimento de aplicações
+          web e graduado em Sistemas de Informação.
         </p>
         <p className={styles.summary}>
-          Minha jornada é marcada por uma constante busca por evolução,
-          frequentemente participo de projetos desafiadores, explorando novas
-          tecnologias, ajudando pessoas e enriquecendo meus conhecimentos e
-          habilidades. Um grande passo foi participar do desenvolvimento ao lado
-          server (back end), entendendo como funcionar toda estrutura e lógica por trás
-          de uma aplicação.
+          Minha trajetória é impulsionada por uma busca de evolução e
+          aprendizado contínuo. Tenho uma aptidão em participar de projetos
+          desafiadores, explorando novas tecnologias, fazendo bons networks,
+          ajudando pessoas e enriquecendo meus conhecimentos.
         </p>
         <p className={styles.summary}>
-          Saindo um pouco do meu lado profissional, sou também um grande
-          praticante de esportes. Tenho um imenso apego ao muay thai, e ao
-          ciclismo, em ambos esportes participo de competições. Tenho abito de
-          ler, livros relacionados a tecnologias e também a literatura.
+          Assim como um bom programador, gosto de uma xícara cheia de café,
+          gosto de lugares leves e que não tenha muito estrondo, e gosto de
+          estar em rodas de conversas com as pessoas que me fazem bem. Pode não
+          parecer, mas também sou uma pessoa atlética, já participei de
+          competições em dois esportes que tenho grande identificação, muai thay
+          e ciclismo.
         </p>
       </div>
     </section>
