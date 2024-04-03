@@ -28,8 +28,8 @@ const Contact = () => {
         </li>
 
         <li>
-          <a href="../curriculum/Currículo .pdf" target="iframe_download">
-            <ResumeIcon style={{ color: "#655643" }} className={styles.icon} />
+          <a href="../curriculum/Currículo.pdf" target="iframe_download">
+            <ResumeIcon style={{ color: "#878286" }} className={styles.icon} />
           </a>
         </li>
       </ul>
