@@ -11,8 +11,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 48%;
-    height: 42vh;
+    width: 40%;
+    height: 38vh;
     margin: 10px;
     padding: 10px;
     color: #fff;
@@ -22,13 +22,20 @@
 }
 
 .company h3 {
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .company img, span {
     margin-top: 5px;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.company ul {
+    margin-top: 6px;
+    width: 80%;
+    text-align: center;
+    font-weight: 400;
 }
 
 .company ul li {
@@ -39,14 +46,14 @@
 
 @media (max-width: 1274px) {
     .company {
-        width: 70%;
+        width: 46%;
+        height: 42vh;
     }
 }
 
 @media (max-width: 800px) {
     .company {
         width: 88%;
-        height: 34vh;
     }
 }
 
