@@ -22,3 +22,9 @@
     transition: 0.8s;
     border-bottom: 2px solid #307cb3;
 }
+
+@media (max-width: 800px) {
+    .marginTop {
+        margin-top: 340px;
+    }
+}

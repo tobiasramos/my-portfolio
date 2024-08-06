@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import AboutMe from "../components/about-me/about-me";
 import Experience from "../components/experience/experience";
@@ -23,6 +23,9 @@ const Home = () => {
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+
+  const isExperiencePage = location.pathname === "/experience";
+
   return (
     <div className={styles.container}>
       <Header />
@@ -91,7 +94,7 @@ const Home = () => {
           </section>
         </Router>
       </main>
-      <Footer />
+      <Footer addMarginTop={isExperiencePage} />
     </div>
   );
 };
