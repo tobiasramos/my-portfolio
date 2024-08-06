@@ -25,11 +25,43 @@ const Projects = () => {
           <ArrowBackIosNewIcon onClick={handleLeftClick} />
         </article>
         <div className={styles.carousel} ref={carousel}>
-        <article className={styles.item}>
+          <article className={styles.item}>
+            <div className={styles.imageProject}>
+              <a
+                href="https://supplier-registration-git-main-tobias-ramos-projects.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../img/project-6.gif"
+                  alt="Foto do primeiro projeto"
+                />
+              </a>
+            </div>
+            <div className={styles.info}>
+              <a
+                href="https://github.com/tobiasramos/supplier-registration"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3>Registro de fornecedor</h3>
+              </a>
+
+              <h4>Tecnologias:</h4>
+              <ul>
+                <li>- NextJS</li>
+                <li>- Zustand</li>
+                <li>- Ant Design</li>
+              </ul>
+            </div>
+          </article>
+
+          <article className={styles.item}>
             <div className={styles.imageProject}>
               <a
                 href="https://general-product-store-git-main-tobias-ramos-projects.vercel.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src="../img/project-5.gif"
@@ -41,6 +73,7 @@ const Projects = () => {
               <a
                 href="https://github.com/tobiasramos/general-product-store"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <h3>Loja de produtos em geral</h3>
               </a>
@@ -59,6 +92,7 @@ const Projects = () => {
               <a
                 href="https://multi-step-form-git-main-tobias-ramos-projects.vercel.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src="../img/project-1.gif"
@@ -70,6 +104,7 @@ const Projects = () => {
               <a
                 href="https://github.com/tobiasramos/multi-step-form.git"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <h3>Multi Step Form</h3>
               </a>
@@ -88,6 +123,7 @@ const Projects = () => {
               <a
                 href="https://pokedex-git-main-tobias-ramos-projects.vercel.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src="../img/project-2.gif" alt="Foto do segundo projeto" />
               </a>
@@ -96,6 +132,7 @@ const Projects = () => {
               <a
                 href="https://github.com/tobiasramos/pokedex.git"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <h3>Pokedex</h3>
               </a>
@@ -112,6 +149,7 @@ const Projects = () => {
               <a
                 href="https://country-search-git-main-tobias-ramos-projects.vercel.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src="../img/project-3.gif"
@@ -123,6 +161,7 @@ const Projects = () => {
               <a
                 href="https://github.com/tobiasramos/country-search"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <h3>Country Search</h3>
               </a>
@@ -139,6 +178,7 @@ const Projects = () => {
               <a
                 href="https://job-listings-git-main-tobias-ramos-projects.vercel.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img src="../img/project-4.gif" alt="Foto do segundo projeto" />
               </a>
@@ -147,6 +187,7 @@ const Projects = () => {
               <a
                 href="https://github.com/tobiasramos/job-listings"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <h3>Job Listings</h3>
               </a>
