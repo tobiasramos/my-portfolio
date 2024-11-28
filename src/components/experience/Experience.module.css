@@ -44,10 +44,11 @@
     font-size: 14px;
 }
 
-@media (max-width: 1274px) {
+@media (max-width: 1374px) {
     .company {
-        width: 46%;
+        width: 48%;
         height: 42vh;
+        border: 1px solid red;
     }
 }
 
