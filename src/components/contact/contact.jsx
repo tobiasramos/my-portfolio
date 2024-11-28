@@ -10,13 +10,13 @@ const Contact = () => {
       <h2>Contato</h2>
       <ul className={styles.socialMedia}>
         <li>
-          <a href="https://github.com/tobiasramos" target="_blank">
+          <a href="https://github.com/tobiasramos" target="_blank" rel="noreferrer">
             <GitHubIcon className={styles.icon} />
           </a>
         </li>
 
         <li>
-          <a href="https://www.linkedin.com/in/tobias-ramos/" target="_blank">
+          <a href="https://www.linkedin.com/in/tobias-ramos/" target="_blank" rel="noreferrer">
             <LinkedInIcon style={{ color: "blue" }} className={styles.icon} />
           </a>
         </li>
