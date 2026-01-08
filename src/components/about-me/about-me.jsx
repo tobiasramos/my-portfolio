@@ -8,23 +8,23 @@ const AboutMe = () => {
       <h2>Sobre mim</h2>
       <div className={styles.container}>
         <p className={styles.summary}>
-          Olá, me chamo Tobias, tenho 25 anos, moro em Senador Pompeu – Ce. Sou
-          front end com 2 anos de experiência em desenvolvimento de aplicações
-          web e graduado em Sistemas de Informação.
+          Olá! Me chamo Tobias Ramos, sou Desenvolvedor Front-end com
+          experiência no desenvolvimento de aplicações web modernas, utilizando
+          React, Next.js e TypeScript. Sou graduado em Sistemas de Informação e
+          atuo na criação de interfaces responsivas, acessíveis e performáticas,
+          com foco em boas práticas e qualidade de código.
         </p>
         <p className={styles.summary}>
-          Minha trajetória é impulsionada por uma busca de evolução e
-          aprendizado contínuo. Tenho uma aptidão em participar de projetos
-          desafiadores, explorando novas tecnologias, fazendo bons networks,
-          ajudando pessoas e enriquecendo meus conhecimentos.
+          Tenho experiência com componentização, consumo de APIs REST,
+          gerenciamento de estado e testes automatizados. Gosto de participar de
+          projetos desafiadores, explorar novas tecnologias e colaborar com
+          pessoas que compartilham a paixão por construir produtos digitais de
+          impacto.
         </p>
         <p className={styles.summary}>
-          Assim como um bom programador, gosto de uma xícara cheia de café,
-          gosto de lugares leves e que não tenha muito estrondo, e gosto de
-          estar em rodas de conversas com as pessoas que me fazem bem. Pode não
-          parecer, mas também sou uma pessoa atlética, já participei de
-          competições em dois esportes que tenho grande identificação, muai thay
-          e ciclismo.
+          Fora do código, pratico esportes como muay thai e ciclismo, atividades
+          que me ajudam a manter disciplina, foco e constância — habilidades que
+          também levo para o desenvolvimento de software.
         </p>
       </div>
     </section>

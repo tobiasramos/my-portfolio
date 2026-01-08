@@ -14,10 +14,12 @@ const Experience = () => {
           <span>Julho 2024 - atual</span>
           <ul>
             <li>
-            - Desenvolvo telas e componentes web, utilizando NextJS, ContextAPI, Ant Design e diversidade em hooks do ReactJS;
+              - Desenvolvimento de interfaces e componentes web utilizando
+              Next.js, React Hooks, Context API e Ant Design.
             </li>
             <li>
-              -Uso o Jest e React Testing Library para a realização dos testes.
+              - Implementação de testes automatizados com Jest e React Testing
+              Library, garantindo qualidade e confiabilidade do código.
             </li>
           </ul>
         </div>
@@ -27,17 +29,17 @@ const Experience = () => {
           <span>Agosto 2023 - Junho 2024</span>
           <ul>
             <li>
-              - Desenvolvia telas e componentes web, utilizando ReactJs, NextJs,
-              MaterialUI, Bootstrap, Ant Design, Redux e Zustang;
+              - Desenvolvimento de interfaces e componentes web com React,
+              Next.js, Material UI, Bootstrap e Ant Design.
+            </li>
+            <li>- Gerenciamento de estado utilizando Redux e Zustand.</li>
+            <li>
+              - Implementação de testes automatizados seguindo práticas de TDD
+              com Jest e React Testing Library.
             </li>
             <li>
-              - Fazia testes nos componentes que eu criava, colocando em prático
-              o TDD. Era usado o Jest e React Testing Library para a realização
-              dos testes;
-            </li>
-            <li>
-              - Participei de atividades no back end, usando o NodeJs e o
-              Sequelize para fazer a comunicação com o banco de dados.
+              - Atuação pontual no back-end com Node.js e Sequelize para
+              integração com banco de dados.
             </li>
           </ul>
         </div>
@@ -47,11 +49,9 @@ const Experience = () => {
           <span>Abril - Junho de 2023</span>
           <ul>
             <li>
-              - Participei na criação de telas e componentes de um kanbom. Para
-              o desenvolvimento dessa aplicação foi utilizado a biblioteca
-              Angular, junto com o TypeScript. Foi usando também o Angular
-              Material para ajudar no design e nas colunas drag-and-drop.
-              Aplicação desenvolvida apenas para desktop.
+              - Desenvolvimento de uma interface Kanban para desktop utilizando
+              Angular, TypeScript e Angular Material, com funcionalidades de
+              drag-and-drop.
             </li>
           </ul>
         </div>
